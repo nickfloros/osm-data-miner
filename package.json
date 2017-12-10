@@ -1,0 +1,24 @@
+{
+  "name": "osm-data-miner",
+  "version": "0.0.1",
+  "description": "mine open street map data using overpass-turbo api and store results in mongo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickfloros/osm-data-miner.git"
+  },
+  "keywords": [
+    "overapass-turbo",
+    "osm",
+    "mongodb"
+  ],
+  "author": "Nick Floros <nickfloros@gmail.com> (https://plus.google.com/u/0/+NickFloros)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickfloros/osm-data-miner/issues"
+  },
+  "homepage": "https://github.com/nickfloros/osm-data-miner#readme"
+}
