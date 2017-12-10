@@ -34,3 +34,41 @@ out body;
 //(._<;>);
 out skel qt;
 
+
+// geojson that defines a box arround UK
+{
+	type: "FeatureCollection",
+	features: [
+		{
+			type: "Feature",
+			properties: { },
+			geometry: {
+				type: "Polygon",
+				coordinates: [
+					[
+						[ // SW CORNER
+							-10.8544921875, 
+							49.82380908513249
+						],
+						[ // NW CORNER
+							-10.8544921875,
+							59.478568831926395
+						],
+						[ // NE CORNER
+							2.021484375,
+							59.478568831926395
+						],
+						[ // SE CORNER
+							2.021484375,
+							49.82380908513249
+						],
+						[ // SW CORNER
+							-10.8544921875,
+							49.82380908513249
+						]
+					]
+				]
+			}
+		}
+]
+}
